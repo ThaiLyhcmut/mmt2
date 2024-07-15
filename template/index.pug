@@ -1,0 +1,359 @@
+doctype html 
+html 
+  head 
+    title Trang chu
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="assets/css/style.css")
+    script(src="https://cdn.tailwindcss.com") 
+    script(src="tailwind.config.js") 
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css")
+  body
+    //-Tophead
+    div(class="bg-black py-[10px]")
+      .container.mx-auto.relative
+        div(class="text-white text-center sm:text-[14px] text-[12px]")
+          span Đăng ký để được giảm giá 20%
+          a(href="/" class="underline font-[500] ml-[4px]")  Đăng Ký Ngay
+        div(class="text-white absolute top-[-2px] right-0 text-[20px] cutsor-pointer sm:inline hidden") 
+          i.fa-solid.fa-xmark
+    //-End Tophead
+    //-head
+    div(class="bg-white sm:py-[24px] py[20px]")
+      div(class="container mx-auto flex items-center justify-between sm:px-0 px-[16px] md:py-0 py-[16px]")
+        div(class="lg:hidden text-[24px] mr-[16px]")
+          i.fa-solid.fa-bars
+        div(class="font-bold sm:text-[32px] text-[25px] mr-[40px] lg:flex-none flex-1")
+          a(href="/") 28SHOP 
+        nav(class="mr-[40px] lg:block hidden")
+          ul(class="flex")
+            li(class="mr-[24px]")
+              a(href="") Giới Thiệu
+            li(class="mr-[24px]")
+              a(href="") Sản Phẩm
+            li(class="mr-[24px]")
+              a(href="") Bài Viết
+            li(class="mr-[24px]")
+              a(href="") Liên Hệ
+        from(class="relative flex-1 mr-[40px] lg:block hidden")
+          input(type="text" placeholder="Tìm kiếm sản phẩm..." class="bg-[#f0f0f0] py-[14px] pl-[52px] rounded-[62px] outline-0 w-full")
+          button(type="submit" class="absolute left-[18px] top-[12px] text-[20px] text-[black] opacity-40")
+           i.fa-solid.fa-magnifying-glass 
+        div(class="")
+          a(href="/" class="text-black text[-24px] sm:mr-[16px] mr-[12px] lg:hidden")
+            i.fa-solid.fa-magnifying-glass  
+          a(href="/" class="text-black text[-24px]")
+            i.fa-solid.fa-cart-plus
+          a(href="/" class="text-black text[-24px] sm:ml-[16px] ml-[12px]")  
+            i.fa-regular.fa-circle-user
+    //-end hea
+    //-section-1
+    section(class="bg-[#f2f0f1]")
+      div(class="container mx-auto flex justify-between items-center flex-wrap md:py-0 py-[16px]")
+        div(class="md:w-[48%] w-full")
+          h1(class="font-black xl:text-[48px] lg:text-[38px] text-[28px] xl:mb-[30px] mb-[20px]" data-aos="fade-up" data-aos-duration="8000" data-aos-delay="800") CHUYÊN THỜI TRANG PHONG CÁCH, HIỆN ĐẠI
+          div(class="text-black opacity-60 xl:mb-[50px] lg:mb-[40px] mb-[30px] xl:text-[16] text-[14px]" data-aos="fade-up" data-aos-duration="8000" data-aos-delay="300") Chúng tôi chuyên cung cấp nhiều loại quần áo được chế tác tỉ mỉ, được thiết kế để làm nổi bật cá tính của bạn và đáp ứng phong cách của bạn.
+          a(href="/" class="bg-black text-white py-[16px] px-[64px] sm:inline-block block font-medium rounded-[62px] text-center" data-aos="fade-up" data-aos-duration="8000" data-aos-delay="800") Xem ngay 
+          div(class="flex sm:flex-nowrap flex-wrap sm:mt-[50px] mt-[30px]" data-aos="fade-up" data-aos-duration="8000" data-aos-delay="600")
+            div(class="sm:pr-[32px] sm:mr-[32px] sm:border-r border-gray-300 sm:w-auto w-[50%] sm:text-left text-center")
+              div(class="xl:text-[40px] text-[24px] font-bold") 200+
+              div(class="opacity-60 xl:text-[16px] text-[12px]") Thương Hiệu 
+            div(class="sm:pr-[32px] sm:mr-[32px] sm:border-r border-gray-300 sm:w-auto w-[50%] sm:text-left text-center")            
+              div(class="xl:text-[40px] text-[24px] font-bold") 2000+
+              div(class="opacity-60 xl:text-[16px] text-[12px]") Sản Phẩm Chất Lượng
+            div(class="w-full sm:text-left text-center")
+              div(class="xl:text-[40px] text-[24px] font-bold") 30,000+
+              div(class="opacity-60 xl:text-[16px] text-[12px]") Khách Hàng 
+        div(class="relative md:w-[48%] w-full")
+          img(src="assets/img/img1.png", class="w-full pt-[50px]")
+          img(src="assets/img/icon1.svg", class="absolute top-[45%] left-0 w-[56px] sm:block hidden")
+          img(src="assets/img/icon1.svg", class="absolute top-[15%] right-0 lg:w-[104px] w-[60px] sm:block hidden")
+    //-end section-1
+    //-section-2
+    section.section-2(class="bg-black py-[30px]")
+      div(class="container mx-auto sm:px-0 px-[16px] flex justify-center items-center flex-wrap")
+        div(class="md:mx-[30px] mx-[17px] my-[15px]")
+          img(src="assets/img/partner_1.png", alt="" class="md:h-[32px] h-[22px] w-auto")
+        div(class="md:mx-[30px] mx-[17px] my-[15px]")
+          img(src="assets/img/partner_2.png", alt="" class="md:h-[32px] h-[22px] w-auto")
+        div(class="md:mx-[30px] mx-[17px] my-[15px]")
+          img(src="assets/img/partner_3.png", alt="" class="md:h-[32px] h-[22px] w-auto")
+        div(class="md:mx-[30px] mx-[17px] my-[15px]")
+          img(src="assets/img/partner_4.png", alt="" class="md:h-[32px] h-[22px] w-auto")
+        div(class="md:mx-[30px] mx-[17px] my-[15px]")
+          img(src="assets/img/partner_5.png", alt="" class="md:h-[32px] h-[22px] w-auto")
+    //-end section-2   
+    //-section-3
+    section.section-3(class="bg-white py-[62px]")
+      div(class="container mx-auto sm:px-0 px-[16px]")
+        h2(class="lg:text-[48px] text-[32px] font-bold text-black text-center lg:mb-[54px] mb-[32px]" data-aos="zoom-in") THỜI TRANG MỚI
+        div(class="grid lg:grid-cols-4 grid-cols-2 gap-[20px]" )
+          div(class="" data-aos="zoom-in"  data-aos-delay="300")
+            a(href="/")
+              div(class="aspect-square truncate rounded-[20px]")
+                img(src="assets/img/img3-1.jpg", alt="" class="w-full h-full")
+              h3(class="md:mt-[20px] mt-[12px] mb-[10px] md:text-[18px] text-[14px] font-bold") Áp Thun Nam Đơn Giản
+              div(class="md:mb-[10px] mb-[5px] flex items-center")
+                span(class="md:text-[18px] text-[15px] text-[#FFC663]")
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                span(class="ml-[13px] md:text-[14px] text-[12px] opacity-60") 5/5
+              div(class="flex items-center flex-wrap")
+                span(class="md:text-[18px] text-[14px] font-bold mr-[10px]") 480.000đ
+                span(class="md:text-[14px] text-[12px] font-bold mr-[10px] opacity-40 line-through") 600.000đ
+                span(class="md:text-[12px] text-[10px] font-medium text-[#ff3333] px-[12px] py-[6px] rounded-[62px] bg-[#FFEBEB]") -20%
+          div(class="" data-aos="zoom-in"  data-aos-delay="400")
+            a(href="/")
+              div(class="aspect-square truncate rounded-[20px]")
+                img(src="assets/img/img3-2.jpg", alt="" class="w-full h-full")
+              h3(class="md:mt-[20px] mt-[12px] mb-[10px] md:text-[18px] text-[14px] font-bold") Áp Thun Nam Đơn Giản
+              div(class="md:mb-[10px] mb-[5px] flex items-center")
+                span(class="md:text-[18px] text-[15px] text-[#FFC663]")
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                span(class="ml-[13px] md:text-[14px] text-[12px] opacity-60") 5/5
+              div(class="flex items-center flex-wrap")
+                span(class="md:text-[18px] text-[14px] font-bold mr-[10px]") 480.000đ
+                span(class="md:text-[14px] text-[12px] font-bold mr-[10px] opacity-40 line-through") 600.000đ
+                span(class="md:text-[12px] text-[10px] font-medium text-[#ff3333] px-[12px] py-[6px] rounded-[62px] bg-[#FFEBEB]") -20%
+          div(class="" data-aos="zoom-in"  data-aos-delay="500")
+            a(href="/")
+              div(class="aspect-square truncate rounded-[20px]")
+                img(src="assets/img/img3-3.jpg", alt="" class="w-full h-full")
+              h3(class="md:mt-[20px] mt-[12px] mb-[10px] md:text-[18px] text-[14px] font-bold") Áo Sơ Mi Caro
+              div(class="md:mb-[10px] mb-[5px] flex items-center")
+                span(class="md:text-[18px] text-[15px] text-[#FFC663]")
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                span(class="ml-[13px] md:text-[14px] text-[12px] opacity-60") 5/5
+              div(class="flex items-center flex-wrap")
+                span(class="md:text-[18px] text-[14px] font-bold mr-[10px]") 480.000đ
+                span(class="md:text-[14px] text-[12px] font-bold mr-[10px] opacity-40 line-through") 600.000đ
+                span(class="md:text-[12px] text-[10px] font-medium text-[#ff3333] px-[12px] py-[6px] rounded-[62px] bg-[#FFEBEB]") -20%
+          div(class="" data-aos="zoom-in"  data-aos-delay="600")
+            a(href="/")
+              div(class="aspect-square truncate rounded-[20px]")
+                img(src="assets/img/img3-4.jpg", alt="" class="w-full h-full")
+              h3(class="md:mt-[20px] mt-[12px] mb-[10px] md:text-[18px] text-[14px] font-bold") Áo Thun Nam Sọc Cam
+              div(class="md:mb-[10px] mb-[5px] flex items-center")
+                span(class="md:text-[18px] text-[15px] text-[#FFC663]")
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                span(class="ml-[13px] md:text-[14px] text-[12px] opacity-60") 5/5
+              div(class="flex items-center flex-wrap")
+                span(class="md:text-[18px] text-[14px] font-bold mr-[10px]") 480.000đ
+                span(class="md:text-[14px] text-[12px] font-bold mr-[10px] opacity-40 line-through") 600.000đ
+                span(class="md:text-[12px] text-[10px] font-medium text-[#ff3333] px-[12px] py-[6px] rounded-[62px] bg-[#FFEBEB]") -20%
+        div(class="text-center lg:mt-[40px] mt-[30px] ")
+          a(href="/" class="sm:inline-block block py-[16px] px-[63px] text-[16px] font-medium border rounded-[62px]") Xem Tất Cả
+    //-end section-3
+    //-section-5
+    section.section-5(class="md:mb-[86px] mb-[40px]")
+      div(class="container mx-auto sm:px-0 px-[16px]")
+        div(class="bg-[#F0F0F0] md:rounded-[42px] rounded-[20px] md:py-[70px] py-[28px] md:px-[64px] px-[24px]")
+          h2(class="lg:text-[48px] text-[32px] font-bold text-black text-center lg:mb-[60px] mb-[32px]"  data-aos="zoom-in"  data-aos-delay="150") DANH MỤC NỔI BẬT
+          div(class="grid lg:grid-cols-3 gird-cols-1 gap-[20px]")
+            div(class="relative truncate rounded-[20px]"  data-aos="zoom-in"  data-aos-delay="300")
+              a(href="/")
+                h3(class="absolute md:top-[20px] top-[17px] md:left-[36px] left-[24px] font-bold md:text-[36px] text-[24px]")  Đơn Giản
+                img(src="assets/img/banner1.jpg", alt="" class="w-full md:h-[289px] h-[190px] object-cover")
+            div(class="lg:col-span-2 relative truncate rounded-[20px]"  data-aos="zoom-in"  data-aos-delay="400")
+              a(href="/")
+                h3(class="absolute md:top-[20px] top-[17px] md:left-[36px] left-[24px] font-bold md:text-[36px] text-[24px]")  Lịch Lãm
+                img(src="assets/img/banner2.jpg", alt="" class="w-full md:h-[289px] h-[190px] object-cover")
+            div(class="lg:col-span-2 relative truncate rounded-[20px]"  data-aos="zoom-in"  data-aos-delay="500")
+              a(href="/")
+                h3(class="absolute md:top-[20px] top-[17px] md:left-[36px] left-[24px] font-bold md:text-[36px] text-[24px]")  Dạ Hội
+                img(src="assets/img/banner3.jpg", alt="" class="w-full md:h-[289px] h-[190px] object-cover")
+            div(class="relative truncate rounded-[20px]" data-aos="zoom-in"  data-aos-delay="600")
+              a(href="/")
+                h3(class="absolute md:top-[20px] top-[17px] md:left-[36px] left-[24px] font-bold md:text-[36px] text-[24px]")  Gym
+                img(src="assets/img/banner4.jpg", alt="" class="w-full md:h-[289px] h-[190px] object-cover")
+    //-end section-5
+    //-section-6
+    div(class="pd-[80px]")
+      div(class="container mx-auto sm:px-0 px-[16px]")
+        h2(class="lg:text-[48px] text-[32px] font-bold text-black lg:mb-[38px] mb-[32px]" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="150") CẢM NHẬN CỦA KHÁCH HÀNG
+
+        .swiper.swiper-section-6 
+          .swiper-wrapper 
+            .swiper-slide
+              div(class="border rounded-[20px] md:px-[32px] px-[24px] md:py-[28px] py-[24px]" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300")
+                span(class="md:text-[22px] text-[19px] text-[#FFC663] mb-[15px]")
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                div(class="mb-[12px]")
+                  span(class="md:text-[20px] text-[16px] font-bold") Le Van B
+                  <i class="fa-solid fa-circle-check md:text-[20px] text-[16px] text-[#01AB31] ml-[4px]"></i>
+                div(class="opacity-60 md:text-[16px] text-[14px]") "Việc tìm kiếm quần áo phù hợp với phong cách cá nhân của tôi từng là một thử thách cho đến khi tôi khám phá ra 28.SHOP. Hàng loạt lựa chọn mà họ cung cấp thực sự đáng chú ý."
+            .swiper-slide 
+              div(class="border rounded-[20px] md:px-[32px] px-[24px] md:py-[28px] py-[24px]" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="400")
+                span(class="md:text-[22px] text-[19px] text-[#FFC663] mb-[15px]")
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                div(class="mb-[12px]")
+                  span(class="md:text-[20px] text-[16px] font-bold") Le Van C
+                  <i class="fa-solid fa-circle-check md:text-[20px] text-[16px] text-[#01AB31] ml-[4px]"></i>
+                div(class="opacity-60 md:text-[16px] text-[14px]") "Là một người luôn tìm kiếm những món đồ thời trang độc đáo, tôi rất vui khi tình cờ biết đến 28.SHOP. Việc lựa chọn quần áo không chỉ đa dạng mà còn bắt kịp xu hướng mới nhất."
+            .swiper-slide
+              div(class="border rounded-[20px] md:px-[32px] px-[24px] md:py-[28px] py-[24px]" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="500")
+                span(class="md:text-[22px] text-[19px] text-[#FFC663] mb-[15px]")
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                div(class="mb-[12px]")
+                  span(class="md:text-[20px] text-[16px] font-bold") Le Van A 
+                  <i class="fa-solid fa-circle-check md:text-[20px] text-[16px] text-[#01AB31] ml-[4px]"></i>
+                div(class="opacity-60 md:text-[16px] text-[14px]") "Tôi rất ngạc nhiên trước chất lượng và kiểu dáng của những bộ quần áo từ 28.SHOP. Từ trang phục thường ngày đến trang phục thanh lịch, mọi món đồ tôi mua đều vượt quá sự mong đợi của tôi."
+            .swiper-slide
+              div(class="border rounded-[20px] md:px-[32px] px-[24px] md:py-[28px] py-[24px]" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="500")
+                span(class="md:text-[22px] text-[19px] text-[#FFC663] mb-[15px]")
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                div(class="mb-[12px]")
+                  span(class="md:text-[20px] text-[16px] font-bold") Le Van A 
+                  <i class="fa-solid fa-circle-check md:text-[20px] text-[16px] text-[#01AB31] ml-[4px]"></i>
+                div(class="opacity-60 md:text-[16px] text-[14px]") "Tôi rất ngạc nhiên trước chất lượng và kiểu dáng của những bộ quần áo từ 28.SHOP. Từ trang phục thường ngày đến trang phục thanh lịch, mọi món đồ tôi mua đều vượt quá sự mong đợi của tôi."
+            .swiper-slide
+              div(class="border rounded-[20px] md:px-[32px] px-[24px] md:py-[28px] py-[24px]" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="500")
+                span(class="md:text-[22px] text-[19px] text-[#FFC663] mb-[15px]")
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                div(class="mb-[12px]")
+                  span(class="md:text-[20px] text-[16px] font-bold") Le Van A 
+                  <i class="fa-solid fa-circle-check md:text-[20px] text-[16px] text-[#01AB31] ml-[4px]"></i>
+                div(class="opacity-60 md:text-[16px] text-[14px]") "Tôi rất ngạc nhiên trước chất lượng và kiểu dáng của những bộ quần áo từ 28.SHOP. Từ trang phục thường ngày đến trang phục thanh lịch, mọi món đồ tôi mua đều vượt quá sự mong đợi của tôi."
+            .swiper-slide
+              div(class="border rounded-[20px] md:px-[32px] px-[24px] md:py-[28px] py-[24px]" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="500")
+                span(class="md:text-[22px] text-[19px] text-[#FFC663] mb-[15px]")
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                div(class="mb-[12px]")
+                  span(class="md:text-[20px] text-[16px] font-bold") Le Van A 
+                  <i class="fa-solid fa-circle-check md:text-[20px] text-[16px] text-[#01AB31] ml-[4px]"></i>
+                div(class="opacity-60 md:text-[16px] text-[14px]") "Tôi rất ngạc nhiên trước chất lượng và kiểu dáng của những bộ quần áo từ 28.SHOP. Từ trang phục thường ngày đến trang phục thanh lịch, mọi món đồ tôi mua đều vượt quá sự mong đợi của tôi."
+        //- div(class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[20px]")
+        //-   div(class="border rounded-[20px] md:px-[32px] px-[24px] md:py-[28px] py-[24px]" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300")
+        //-     span(class="md:text-[22px] text-[19px] text-[#FFC663] mb-[15px]")
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-     div(class="mb-[12px]")
+        //-       span(class="md:text-[20px] text-[16px] font-bold") Le Van B
+        //-       <i class="fa-solid fa-circle-check md:text-[20px] text-[16px] text-[#01AB31] ml-[4px]"></i>
+        //-     div(class="opacity-60 md:text-[16px] text-[14px]") "Việc tìm kiếm quần áo phù hợp với phong cách cá nhân của tôi từng là một thử thách cho đến khi tôi khám phá ra 28.SHOP. Hàng loạt lựa chọn mà họ cung cấp thực sự đáng chú ý."
+        //-   div(class="border rounded-[20px] md:px-[32px] px-[24px] md:py-[28px] py-[24px]" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="400")
+        //-     span(class="md:text-[22px] text-[19px] text-[#FFC663] mb-[15px]")
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-     div(class="mb-[12px]")
+        //-       span(class="md:text-[20px] text-[16px] font-bold") Le Van C
+        //-       <i class="fa-solid fa-circle-check md:text-[20px] text-[16px] text-[#01AB31] ml-[4px]"></i>
+        //-     div(class="opacity-60 md:text-[16px] text-[14px]") "Là một người luôn tìm kiếm những món đồ thời trang độc đáo, tôi rất vui khi tình cờ biết đến 28.SHOP. Việc lựa chọn quần áo không chỉ đa dạng mà còn bắt kịp xu hướng mới nhất."
+        //-   div(class="border rounded-[20px] md:px-[32px] px-[24px] md:py-[28px] py-[24px]" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="500")
+        //-     span(class="md:text-[22px] text-[19px] text-[#FFC663] mb-[15px]")
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-       <i class="fa-solid fa-star"></i>
+        //-     div(class="mb-[12px]")
+        //-       span(class="md:text-[20px] text-[16px] font-bold") Le Van A 
+        //-       <i class="fa-solid fa-circle-check md:text-[20px] text-[16px] text-[#01AB31] ml-[4px]"></i>
+        //-     div(class="opacity-60 md:text-[16px] text-[14px]") "Tôi rất ngạc nhiên trước chất lượng và kiểu dáng của những bộ quần áo từ 28.SHOP. Từ trang phục thường ngày đến trang phục thanh lịch, mọi món đồ tôi mua đều vượt quá sự mong đợi của tôi."
+    //-end section-6
+    //-section-7
+    div(class="mt-[80px] relative")
+      div(class="container mx-auto sm:px-0 px-[16px]")
+        div(class="bg-black rounded-[20px] md:py-[54px] py-[32px] md:px-[37px] px-[24px] flex items-center justify-between flex-wrap")
+         h2(class="text-white xl:text-[40px] text-[32px] font-bold xl:w-[550px] lg:w-[450px] w-full lg:mr-[20px] lg:mb-[0px] mb-[20px]") CẬP NHẬT VỀ ƯU ĐÃI MỚI NHẤT CỦA CHÚNG TÔI
+         form(action="" class="lg:w-[350px] w-full")
+          div(class="relative")
+            i.fa-regular.fa-envelope.opacity-40(class="absolute md:top-[16px] top-[13px] left-[18px]")
+            input(type="email",placeholder="Nhập email của bạn..." class="md:h-[48px] h-[42px] w-full rounded-[62px] pl-[52px] pr-[10px] outline-none md:text-[16px] text-[14px]" name="") 
+          button(type="submit" class="bg-white rounded-[62px] text-black font-medium text-[16px] md:h-[44px] h-[42px] w-full md:mt-[14px] mt-[12px]") Đăng Ký Nhận Tin
+    //-end section-7
+    //-footer
+    footer(class="bg-[#F0F0F0] pt-[157px] pb-[82px] mt-[-107px]")
+      div(class="container mx-auto sm:px-0 px-[16px]")
+        div(class="flex justify-between border-b border-gray-300 pb-[48px] mr-[20px]")
+          div(class="w-[248px]")
+            div(class="text-[34px] font-bold mb-[20px]") 28.SHOP
+            div(class="text-[14px] opacity-60 mb-[35px]") Chúng tôi có những bộ quần áo phù hợp với phong cách của bạn và bạn có thể tự hào khi mặc.
+            div(class="flex")
+              a(href="/", target="_blank", rel="noopener noreferrer" class="w-[28px] h-[28px] border border-gray-300 hover:border-black rounded-[50%] flex justify-center items-center bg-white hover:bg-black mr-[12px] text-[12px] text-black hover:text-[white]") 
+                <i class="fa-brands fa-x-twitter"></i>
+              a(href="/", target="_blank", rel="noopener noreferrer" class="w-[28px] h-[28px] border border-gray-300 hover:border-black rounded-[50%] flex justify-center items-center bg-white hover:bg-black mr-[12px] text-[12px] text-black hover:text-[white]") 
+                <i class="fa-brands fa-facebook-f"></i>
+              a(href="/", target="_blank", rel="noopener noreferrer" class="w-[28px] h-[28px] border border-gray-300 hover:border-black rounded-[50%] flex justify-center items-center bg-white hover:bg-black mr-[12px] text-[12px] text-black hover:text-[white]")
+                <i class="fa-brands fa-instagram"></i> 
+          div(class="w-[115px]")
+            div(class="text-[16px] font-medium text-black mb-[26px] uppercase") CÔNG TY
+            ul(class=" text-black text-[16px]")
+              li(class="mb-[16px]")
+                a(href="" class="opacity-60 hover:opacity-100") Giới Thiệu          
+              li(class="mb-[16px]")
+                a(href="" class="opacity-60 hover:opacity-100") Sản Phẩm          
+              li(class="mb-[16px]")
+                a(href="" class="opacity-60 hover:opacity-100") Công Việc   
+              li(class="mb-[16px]")
+                a(href="" class="opacity-60 hover:opacity-100") Việc Làm  
+          div(class="") Trợ giúp
+          div(class="") FAQ
+          div(class="") Tài nguyên
+        div(class="flex justify-between items-center mt-[20px]")
+          div(class="text-[14px] opacity-60") 28.SHOP © 2024, All Rights Reserved
+          div(class="")
+            div(class="flex")
+              div(class="border border-gray-300 rounded-[5px] ml-[12px] py-[9px] px-[7px] h-[30px] w-[46px] bg-white")
+                img(src="assets/img/f-1.png", alt="" class="h-[12px] w-full object-contain")
+              div(class="border border-gray-300 rounded-[5px] ml-[12px] py-[9px] px-[7px] h-[30px] w-[46px] bg-white")
+                img(src="assets/img/f-2.png", alt="" class="h-[12px] w-full object-contain")
+              div(class="border border-gray-300 rounded-[5px] ml-[12px] py-[9px] px-[7px] h-[30px] w-[46px] bg-white")
+                img(src="assets/img/f-3.png", alt="" class="h-[12px] w-full object-contain")
+              div(class="border border-gray-300 rounded-[5px] ml-[12px] py-[9px] px-[7px] h-[30px] w-[46px] bg-white")
+                img(src="assets/img/f-4.png", alt="" class="h-[12px] w-full object-contain")
+              div(class="border border-gray-300 rounded-[5px] ml-[12px] py-[9px] px-[7px] h-[30px] w-[46px] bg-white")
+                img(src="assets/img/f-5.png", alt="" class="h-[12px] w-full object-contain")
+    //-end footer
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    script(src="assets/JS/script.js")   
+    
